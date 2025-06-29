@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,10 +17,23 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle at 20% 30%, #ffe4ec, transparent 50%);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+} */
+section[id] {
+  scroll-margin-top: 20px; 
 }
