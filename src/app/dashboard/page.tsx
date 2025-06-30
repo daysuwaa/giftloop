@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Header from './Header'
 import Stats from './Stats'
 import Upcoming from './Upcoming'
-import Yourpeople from './YourPeople'
+import YourPeeps from './YourPeeps'
 
 const page = () => {
   return (
@@ -12,7 +12,7 @@ const page = () => {
         <Header/>
         <Stats/>
         <Upcoming/>
-        <Yourpeople/>
+       <YourPeeps/>
     </div>
   )
 }

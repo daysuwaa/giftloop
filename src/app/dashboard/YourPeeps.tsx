@@ -41,7 +41,7 @@ const dummyPeople: Personcard[] = [
    
   },
 ]
-const YourPeople = () => {
+const YourPeeps = () => {
   return (
     <div className='mt-8 bg-yellow-50 border-2 border-yellow-200 rounded-xl p-5'>
         <div className="mt-6">
@@ -66,4 +66,4 @@ const YourPeople = () => {
   )
 }
 
-export default YourPeople
+export default YourPeeps

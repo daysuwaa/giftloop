@@ -6,6 +6,7 @@ const Navbar = () => {
   const toggleNav = ()=>{
      setIsNavOpen(!isNavOpen)
   }
+  
   return (
     <div className='w-full my-5 px-6 sm:px-12 md:px-12 lg:px-15 xl:px-20 max-w-7xl mx-auto'>
         <header className='flex items-center'>
@@ -19,10 +20,10 @@ const Navbar = () => {
           </button>
         </div>
             <nav className="space-x-6 mx-auto text-sm items-center font-medium hidden md:flex">
-          <a href="#features" className="hover:text-pink-500 transition">Dashboard</a>
-          <a href="#about" className="hover:text-pink-500 transition">People</a>
-          <a href="#about" className="hover:text-pink-500 transition">Gift Ideas</a>
-          <a href="#about" className="hover:text-pink-500 transition">Reminders</a>
+          <a href="/dashboard" className="hover:text-pink-500 transition">Dashboard</a>
+          <a href="/people" className="hover:text-pink-500 transition">People</a>
+          <a href="/giftideas" className="hover:text-pink-500 transition">Gift Ideas</a>
+          <a href="/reminders" className="hover:text-pink-500 transition">Reminders</a>
         
         </nav>
        </header>
