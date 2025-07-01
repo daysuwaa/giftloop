@@ -10,7 +10,7 @@ const AddPersonModal = ({ isOpen, onClose }: AddPersonModalProps) => {
   if (!isOpen) return null;
 
   return (
-   <div className="fixed inset-0bg-[#0f0e0e74] flex items-center justify-center z-50">
+   <div className="fixed inset-0 bg-[#29292976] flex items-center justify-center z-50">
       <div className="bg-white p-6 rounded-md shadow-lg w-full max-w-md">
         <h2 className="text-xl font-semibold mb-4">Add New Person</h2>
 

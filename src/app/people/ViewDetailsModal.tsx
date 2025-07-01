@@ -64,10 +64,10 @@ const ViewDetailsModal = ({ isOpen, onClose, person }: ViewDetailsModalProps) =>
   </div>
 )}
         <div className="flex items-center justify-between gap-5">
-        <button onClick={onClose} className="px-4 py-2 bg-gray-300 rounded w-full">
+        <button onClick={onClose} className="px-4 py-2 cursor-pointer bg-gray-300 rounded w-full">
           Cancel
         </button>
-        <button className="px-4 py-2 bg-purple-500 text-white rounded w-full">
+        <button className="px-4 py-2 bg-purple-500 text-white cursor-pointer rounded w-full">
           Save
         </button>
         </div>
