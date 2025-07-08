@@ -21,7 +21,7 @@ const dummyPeople: Person[] = [
     icon: <Cake className="text-pink-500" />,
   },
   {
-    name: "Collins Ikotun ",
+    name: "Sucholas ",
     birthday: new Date(2025, 6, 19),
     event: "Anniversary",
     icon: <CalendarHeart className="text-red-500" />,

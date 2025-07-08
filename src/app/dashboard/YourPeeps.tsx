@@ -11,13 +11,13 @@ type Personcard = {
 
 const dummyPeople: Personcard[] = [
    {
-    name: "Susu Temi",
+    name: "Adesuwa Wale",
     birthday: new Date(2025, 6, 20),
     giftcount: 2,
    
   },
    {
-    name: " Temi",
+    name: " Jaden",
     birthday: new Date(2025, 6, 20),
     giftcount: 2,
    
